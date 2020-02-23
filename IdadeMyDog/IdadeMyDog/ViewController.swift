@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var legendaResultado: UILabel!
+    @IBOutlet weak var IdadeCachorro: UITextField!
+
     
     @IBAction func descobirIdade(_ sender: Any) {
-
-        legendaResultado.text = "Texto alterado"
+        
+        let idade = Int (IdadeCachorro.text!)! * 7
+        legendaResultado.text = "A idade do cachorro é:" + String(idade)
         
     }
     override func viewDidLoad() {
