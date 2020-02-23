@@ -14,6 +14,7 @@
 		880473B223FF48BF002A3131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880473B023FF48BF002A3131 /* LaunchScreen.storyboard */; };
 		880473BD23FF48BF002A3131 /* IdadeMyDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880473BC23FF48BF002A3131 /* IdadeMyDogTests.swift */; };
 		880473C823FF48BF002A3131 /* IdadeMyDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880473C723FF48BF002A3131 /* IdadeMyDogUITests.swift */; };
+		880473D62401F278002A3131 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 880473D52401F277002A3131 /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		880473C323FF48BF002A3131 /* IdadeMyDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdadeMyDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		880473C723FF48BF002A3131 /* IdadeMyDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdadeMyDogUITests.swift; sourceTree = "<group>"; };
 		880473C923FF48BF002A3131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880473D52401F277002A3131 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		880473A623FF48BC002A3131 /* IdadeMyDog */ = {
 			isa = PBXGroup;
 			children = (
+				880473D52401F277002A3131 /* cachorro.png */,
 				880473A723FF48BC002A3131 /* AppDelegate.swift */,
 				880473A923FF48BC002A3131 /* ViewController.swift */,
 				880473AB23FF48BC002A3131 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880473D62401F278002A3131 /* cachorro.png in Resources */,
 				880473B223FF48BF002A3131 /* LaunchScreen.storyboard in Resources */,
 				880473AF23FF48BF002A3131 /* Assets.xcassets in Resources */,
 				880473AD23FF48BC002A3131 /* Main.storyboard in Resources */,

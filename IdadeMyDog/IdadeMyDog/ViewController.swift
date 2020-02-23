@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var legendaResultado: UILabel!
+    
+    @IBAction func descobirIdade(_ sender: Any) {
+
+        legendaResultado.text = "Texto alterado"
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
